@@ -1,0 +1,26 @@
+{
+  "name": "@fasunle/react-tinder-card",
+  "version": "1.0.0",
+  "description": "A swippable card that behaves like the swipe card on tinder website",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "card",
+    "swippable",
+    "react-tinder-card",
+    "web"
+  ],
+  "author": "Kehinde Fasunle <kfasunle@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@react-spring/types": "^9.7.3",
+    "@types/node": "^20.4.1",
+    "@types/react": "^18.2.14",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "@react-spring/web": "^9.7.3",
+    "react": "^18.2.0"
+  }
+}
