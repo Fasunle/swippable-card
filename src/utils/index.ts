@@ -1,4 +1,4 @@
-import { Direction, SetSpringTarget, Vector } from "types";
+import { SetSpringTarget, Vector } from "types";
 import { height, physics, settings, width } from "./constants";
 
 export const pythagoras = (x: number, y: number) =>
