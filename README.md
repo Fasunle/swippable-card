@@ -43,7 +43,7 @@ npm install --save @react-spring/native
 Import TinderCard and use the component like the snippet. Note that the component will not remove itself after swipe. If you want that behaviour implement that on the `onCardLeftScreen` callback. It is recommended to have `overflow: hidden` on your `#root` to prevent cards from being visible after they go of screen.
 
 ```js
-import TinderCard from 'react-tinder-card'
+import TinderCard from '@fasunle/react-tinder-card'
 
 // ...
 
@@ -55,8 +55,9 @@ const onCardLeftScreen = (myIdentifier) => {
   console.log(myIdentifier + ' left the screen')
 }
 
+
 return (
-  <TinderCard onSwipe={onSwipe} onCardLeftScreen={() => onCardLeftScreen('fooBar')} preventSwipe={['right', 'left']}>Hello, World!</TinderCard>
+  <TinderCard onSwipe={onSwipe} onCardLeftScreen={() => onCardLeftScreen('fooBar')} preventSwipe={['right', 'left']}>Your content goes here!</TinderCard>
 )
 ```
 
