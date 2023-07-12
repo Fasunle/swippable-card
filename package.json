@@ -1,6 +1,6 @@
 {
   "name": "@fasunle/react-tinder-card",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A swippable card that behaves like the swipe card on tinder website",
   "scripts": {
     "build": "tsc"
